@@ -1,28 +1,22 @@
-# Java Calculator with JUnit Testing
+# Email List Management System Using HashSet
 
-## Project Overview
-
-This project is a simple Java-based Calculator that performs basic arithmetic operations. It's designed to demonstrate the use of JUnit for writing and executing test cases. The Calculator class provides static methods for addition, subtraction, multiplication, and division.
+## Overview
+This Java application is designed to manage an email list by allowing users to add and view unique email addresses. Utilizing a `HashSet`, the program automatically enforces the uniqueness of each email address, ensuring efficient storage and retrieval.
 
 ## Java Features
+- **HashSet**: Used for storing email addresses without duplicates.
+- **Java Util Scanner**: Employs `Scanner` class for user input.
+- **Control Flow**: Implements loops and conditional statements for user interaction and menu navigation.
 
-- **Static Methods**: Utilizes static methods for basic arithmetic operations.
-- **Exception Handling**: Implements basic error handling, especially for division by zero scenarios.
-- **Modular Code Structure**: Follows best practices in code organization for maintainability and readability.
+## Functionality
+- **Add Email**: Users can input an email address which is then added to the `HashSet`. The system checks for duplicates to ensure uniqueness.
+- **Display Emails**: The program displays all unique email addresses currently stored.
+- **Exit Option**: Allows users to exit the program gracefully.
 
-## JUnit Testing
-
-The project includes a comprehensive suite of JUnit tests to validate the functionality of the Calculator class.
-
-### Key Testing Features
-
-- **assertEquals Method**: Employs `assertEquals` from JUnit to ensure the expected output matches the actual results from Calculator methods.
-- **assertTrue Method**: Uses `assertTrue` to validate conditions in certain test cases.
-- **Test Coverage**: Each arithmetic operation (add, subtract, multiply, divide) is covered with multiple test cases to ensure robustness.
-
-### Running Tests
-
-To run the tests, simply clone the repository and execute the `CalculatorTest` class in an environment with JUnit setup.
+## How to Use
+1. Run `Main.java` to start the program.
+2. Follow the on-screen menu to add or view email addresses.
+3. Choose the 'Exit' option to terminate the application.
 
 
 ## Author
